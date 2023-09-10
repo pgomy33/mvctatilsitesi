@@ -1,0 +1,26 @@
+﻿@using SeyehatRehber.Models.Entity
+@model List<Blog>
+
+<div class="gallery">
+    <div class="container">
+        <div class="agileits_heading_section">
+            <h3 class="wthree_head">Blog Galeri</h3>
+            <p class="w3l_sub_para_agile">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="inner_w3l_agile_grids-1">
+            @foreach (var x in Model)
+            {
+                <div class="col-md-3 gallery-grid gallery1">
+                    <a href="~/web/images/g11.jpg" class="swipebox">
+                        <img src="@x.BLOGIMAGE" class="img-responsive" alt="/">
+                        <div class="textbox">
+                            <h4 style="font-size:16px">@x.BASLIK</h4>
+                        </div>
+                    </a>
+                </div>
+            }
+       
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>

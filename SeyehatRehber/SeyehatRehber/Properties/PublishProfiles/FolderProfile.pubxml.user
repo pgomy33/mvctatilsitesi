@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Emre\Desktop\WebSite2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 20:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 20:38:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/SeyehatRehber.dll">
+      <publishTime>09/09/2023 16:46:57</publishTime>
+    </File>
+    <File Include="bin/SeyehatRehber.pdb">
+      <publishTime>09/09/2023 16:46:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>09/07/2023 15:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/07/2023 15:23:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/07/2023 15:23:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/07/2023 15:23:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/07/2023 15:23:17</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>09/07/2023 15:23:16</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>09/08/2023 01:39:43</publishTime>
+    </File>
+    <File Include="Views/Admin/BlogDetay.cshtml">
+      <publishTime>09/09/2023 15:48:46</publishTime>
+    </File>
+    <File Include="Views/Admin/BlogEkle.cshtml">
+      <publishTime>09/08/2023 17:45:17</publishTime>
+    </File>
+    <File Include="Views/Admin/BlogListele.cshtml">
+      <publishTime>09/09/2023 15:44:15</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>09/08/2023 16:03:08</publishTime>
+    </File>
+    <File Include="Views/Admin/YorumDetay.cshtml">
+      <publishTime>09/09/2023 16:32:39</publishTime>
+    </File>
+    <File Include="Views/Admin/YorumListele.cshtml">
+      <publishTime>09/09/2023 16:27:53</publishTime>
+    </File>
+    <File Include="Views/Blog/BlogDetay.cshtml">
+      <publishTime>09/09/2023 15:56:21</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>09/08/2023 13:48:04</publishTime>
+    </File>
+    <File Include="Views/Blog/YanMenu.cshtml">
+      <publishTime>09/08/2023 13:43:13</publishTime>
+    </File>
+    <File Include="Views/Blog/YorumYap.cshtml">
+      <publishTime>09/09/2023 16:09:07</publishTime>
+    </File>
+    <File Include="Views/Default/EnYeniler.cshtml">
+      <publishTime>09/08/2023 13:22:39</publishTime>
+    </File>
+    <File Include="Views/Default/EnYeniler1.cshtml">
+      <publishTime>09/08/2023 13:21:28</publishTime>
+    </File>
+    <File Include="Views/Default/Gallery.cshtml">
+      <publishTime>09/08/2023 19:34:34</publishTime>
+    </File>
+    <File Include="Views/Default/Index.cshtml">
+      <publishTime>09/08/2023 01:48:15</publishTime>
+    </File>
+    <File Include="Views/Default/PopulerYorum.cshtml">
+      <publishTime>09/08/2023 01:09:22</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/iletisim/Index.cshtml">
+      <publishTime>09/08/2023 20:02:39</publishTime>
+    </File>
+    <File Include="Views/Login/Login.cshtml">
+      <publishTime>09/09/2023 14:55:05</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>09/09/2023 14:57:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/Shared/_MainLayout.cshtml">
+      <publishTime>09/09/2023 16:41:35</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/07/2023 15:23:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/09/2023 16:42:33</publishTime>
+    </File>
+    <File Include="web/about.html">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/contact.html">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/css/bootstrap.css">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/css/font-awesome.css">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/css/JiSlider.css">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/css/style.css">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/css/swipebox.css">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/fontawesome-webfont.eot">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/fontawesome-webfont.svg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/fontawesome-webfont.woff">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/FontAwesome.otf">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/gallery.html">
+      <publishTime>09/08/2023 18:28:09</publishTime>
+    </File>
+    <File Include="web/icons.html">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/ab.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/avatar.png">
+      <publishTime>09/08/2023 01:08:55</publishTime>
+    </File>
+    <File Include="web/images/banner.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/banner1.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/banner2.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/banner3.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/eyfel.jpg">
+      <publishTime>09/08/2023 00:13:01</publishTime>
+    </File>
+    <File Include="web/images/g1.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g10.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g11.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g12.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g2.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g3.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g4.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g5.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g6.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g7.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g8.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/g9.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/icons.svg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/left-1.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/left-quote.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/left.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/overlay.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/right-quote.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/right.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/t1.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/t2.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/t3.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/t4.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/te1.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/te2.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/te3.jpg">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/Thumbs.db">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/images/up.png">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/index.html">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/bootstrap-3.1.1.min.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/contact_me.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/easing.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jarallax.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/JiSlider.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jqBootstrapValidation.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jquery-2.1.4.min.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jquery.countup.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jquery.flexisel.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jquery.swipebox.min.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/jquery.waypoints.min.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/move-top.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/js/SmoothScroll.min.js">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/typography.html">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web/w3layouts-License.txt">
+      <publishTime>09/07/2023 23:46:25</publishTime>
+    </File>
+    <File Include="web2/about.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/contact.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/css/bootstrap.min.css">
+      <publishTime>09/08/2023 02:26:47</publishTime>
+    </File>
+    <File Include="web2/css/flexslider.css">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/css/font-awesome.min.css">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/css/skdslider.css">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/css/smoothbox.css">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/css/style.css">
+      <publishTime>09/08/2023 12:59:52</publishTime>
+    </File>
+    <File Include="web2/fashion.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/features.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/fontawesome-webfont.eot">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/fontawesome-webfont.woff">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/FontAwesome.otf">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/icons.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/1.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/1.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/2.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/2.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/3.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/3.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/4.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/4.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/5.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/arrows.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/g6.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/g7.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/g8.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/p1.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/p2.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/p3.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/r1.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/r2.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/r3.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/t1.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/t2.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/t3.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/t4.jpg">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/images/top-arrow.png">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/index.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/bars.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/bootstrap.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/easing.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/jquery-2.1.4.min.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/jquery.flexslider.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/main.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/move-top.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/skdslider.min.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/js/smoothbox.jquery2.js">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/lifestyle.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/photography.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/singlepage.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/typo.html">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web2/w3layouts-License.txt">
+      <publishTime>09/08/2023 02:15:10</publishTime>
+    </File>
+    <File Include="web3/datatable.html">
+      <publishTime>09/08/2023 16:14:14</publishTime>
+    </File>
+    <File Include="web3/fonts/bootstrap-icons.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/bootstrap-icons.woff2">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/bootstrap/bootstrap-icons.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/bootstrap/fonts/bootstrap-icons.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/bootstrap/fonts/bootstrap-icons.woff2">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/dropways.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/dropways.eot">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/dropways.svg">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/dropways.ttf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/dropways.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/font-awesome/css/font-awesome.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/font-awesome/css/font-awesome.min.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/fontawesome-webfont.eot">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/fontawesome-webfont.svg">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/fontawesome-webfont.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/FontAwesome.otf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/foundation-icons.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/foundation-icons.eot">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/foundation-icons.svg">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/foundation-icons.ttf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/foundation-icons.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons-master/css/ionicons.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons-master/css/ionicons.min.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons.eot">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons.svg">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons.ttf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/ionicons.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/themify-icons/themify-icons.css">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/themify.eot">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/themify.svg">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/themify.ttf">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/fonts/themify.woff">
+      <publishTime>09/08/2023 16:37:36</publishTime>
+    </File>
+    <File Include="web3/styles/core.css">
+      <publishTime>09/08/2023 16:39:39</publishTime>
+    </File>
+    <File Include="web3/styles/icon-font.min.css">
+      <publishTime>09/08/2023 16:56:48</publishTime>
+    </File>
+    <File Include="web3/styles/media.css">
+      <publishTime>09/08/2023 16:14:14</publishTime>
+    </File>
+    <File Include="web3/styles/style.css">
+      <publishTime>09/08/2023 16:55:06</publishTime>
+    </File>
+    <File Include="web3/styles/theme.css">
+      <publishTime>09/08/2023 16:14:14</publishTime>
+    </File>
+    <File Include="webadmin/basic_tables.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/compose.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/bootstrap.min.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/clndr.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/custom.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/font-awesome.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/jqvmap.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/lines.css">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/css/style.css">
+      <publishTime>09/08/2023 17:33:27</publishTime>
+    </File>
+    <File Include="webadmin/fonts/fontawesome-webfont.eot">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/fontawesome-webfont.svg">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/fontawesome-webfont.woff">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/FontAwesome.otf">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/forms.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/graphs.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/grids.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/1.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/2.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/3.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/4.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/5.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/arrow-left.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/arrow-right.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/bg.jpg">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/cloud.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/logo.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/pic1.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/pic2.png">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/pic3.jpg">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/images/pic4.jpg">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/inbox.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/index.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/bootstrap.min.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/Chart.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/clndr.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/custom.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/d3.v3.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/jquery.min.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/jquery.vmap.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/jquery.vmap.sampledata.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/jquery.vmap.world.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/metisMenu.min.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/moment-2.2.1.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/rickshaw.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/site.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/js/underscore-min.js">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/login.html">
+      <publishTime>09/09/2023 14:36:14</publishTime>
+    </File>
+    <File Include="webadmin/media.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/register.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/typography.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/validation.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/w3layouts-License.txt">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+    <File Include="webadmin/widgets.html">
+      <publishTime>09/08/2023 15:39:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿@model SeyehatRehber.Models.Entity.Yorumlar
+
+<form action="#" method="post">
+    <input type="text" name="BLOGID" value="@ViewBag.deger" placeholder="Kullanıcı Adı" hidden>
+    <input type="text" name="KULLANICIADI" placeholder="Kullanıcı Adı" required="">
+    <input type="email" name="MAIL" placeholder="E-mail" required="">
+    <textarea name="YORUM" placeholder="Yorum" required=""></textarea>
+    <div class="w3_single_submit">
+        <input type="submit" value="Yorum Yap">
+    </div>
+</form>

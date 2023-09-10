@@ -1,0 +1,151 @@
+﻿@using SeyehatRehber.Models.Entity
+@model List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fashion Blog a Blogging Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+    <link href="~/web2/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->
+    <link href="~/web2/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+    <link href="~/web2/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/web2/css/flexslider.css" type="text/css" media="screen" property="" />
+    <!-- stylesheet -->
+    <!-- meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //meta tags -->
+    <!--fonts-->
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--//fonts-->
+    <script type="text/javascript" src="~/web2/js/jquery-2.1.4.min.js"></script>
+    <script src="~/web2/js/main.js"></script>
+    <!-- Required-js -->
+    <!-- main slider-banner -->
+    <script src="~/web2/js/skdslider.min.js"></script>
+    <link href="~/web2/css/skdslider.css" rel="stylesheet">
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#demo1').skdslider({ 'delay': 5000, 'animationSpeed': 2000, 'showNextPrev': true, 'showPlayButton': true, 'autoSlide': true, 'animationType': 'fading' });
+
+            jQuery('#responsive').change(function () {
+                $('#responsive_wrapper').width(jQuery(this).val());
+            });
+
+        });
+    </script>
+    <!-- //main slider-banner -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="~/web2/js/move-top.js"></script>
+    <script type="text/javascript" src="~/web2/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- scriptfor smooth drop down-nav -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //script for smooth drop down-nav -->
+</head>
+<body>
+    <!-- header -->
+    <!-- //main-slider -->
+    <!-- //top-header and slider -->
+    <div class="container">
+        <div class="banner-btm-agile">
+            <!-- //btm-wthree-left -->
+            <div class="col-md-9 btm-wthree-left">
+                @foreach (var x in Model)
+                {
+                    <div class="wthree-top">
+                        <div class="w3agile-top">
+                            <div class="w3agile_special_deals_grid_left_grid">
+                                <a href="/Blog/BlogDetay/@x.ID"><img src="@x.BLOGIMAGE" class="img-responsive" alt="" /></a>
+                            </div>
+                            <div class="w3agile-middle">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>@x.TARIH.ToShortDateString()</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>201 LIKES</a></li>
+                                    <li><a href="#"><i class="fa fa-comment" aria-hidden="true"></i>15 COMMENTS</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="w3agile-bottom">
+                            <div class="col-md-3 w3agile-left">
+                                <h5>Dünyayı Keşfet, Anı Biriktir.</h5>
+                            </div>
+                            <div class="col-md-9 w3agile-right">
+                                <h3><a href="/Blog/BlogDetay/@x.ID">@x.BASLIK </a></h3>
+                                <p>@x.ACIKLAMA.Substring(0, 350)</p>
+                                <a class="agileits w3layouts" href="/Blog/BlogDetay/@x.ID">Devamını Oku.. <span class="glyphicon agileits w3layouts glyphicon-arrow-right" aria-hidden="true"></span></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <!-- //btm-wthree-left -->
+            <!-- btm-wthree-right -->
+            @Html.Action("YanMenu", "Blog")
+            <!-- //btm-wthree-right -->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- footer -->
+    <!-- copyright -->
+    <!-- //copyright -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

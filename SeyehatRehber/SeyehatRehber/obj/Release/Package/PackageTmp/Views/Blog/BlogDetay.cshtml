@@ -1,0 +1,69 @@
+﻿@model SeyehatRehber.Models.Entity.BlogYorum
+
+@{
+    ViewBag.Title = "BlogDetay";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<link href="~/web2/css/style.css" rel="stylesheet" />
+<div class="container">
+    <div class="banner-btm-agile">
+        <!-- //btm-wthree-left -->
+        <div class="col-md-9 btm-wthree-left">
+            <div class="single-left">
+                <div class="single-left1">
+                    @foreach (var x in Model.Deger1)
+                    {
+                        <img src="@x.BLOGIMAGE" alt=" " class="img-responsive" />
+                        <h3>@x.BASLIK</h3>
+                        @*<ul>
+                            <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span><a href="#">Michael Smith</a></li>
+                            <li><span class="glyphicon glyphicon-tag" aria-hidden="true"></span><a href="#">5 Tags</a></li>
+                            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="#">5 Comments</a></li>
+                        </ul>*@
+                        <p>
+                            @x.ACIKLAMA
+                        </p>
+                    }
+
+                </div>
+                
+                
+                <div class="comments">
+                    <h3>Yazıya Ait Yorumlar</h3>
+                    <div class="comments-grids">
+                        @foreach (var x in Model.Deger2)
+                        {
+                            <div class="comments-grid">
+                                <div class="comments-grid-left">
+                                    <img src="~/web/images/avatar.png" alt=" " class="img-responsive" />
+                                </div>
+                                <div class="comments-grid-right">
+                                    <h4>@x.KULLANICIADI</h4>
+                                    <ul>
+                                        <li>@x.TARIH.ToShortDateString()<i>|</i></li>
+                                    </ul>
+                                    <p>
+                                        @x.YORUM
+                                    </p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        }
+
+
+                    </div>
+                </div>
+                <div class="leave-coment-form">
+                    <h3>Bir Yorum Yapın</h3>
+                   @Html.Action("YorumYap","Blog")
+                </div>
+            </div>
+
+        </div>
+        <!-- //btm-wthree-left -->
+        <!-- btm-wthree-right -->
+        @Html.Action("YanMenu","Blog")
+        <!-- //btm-wthree-right -->
+        <div class="clearfix"></div>
+    </div>
+</div>

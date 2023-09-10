@@ -1,0 +1,18 @@
+﻿@model SeyehatRehber.Models.Entity.Yorumlar
+@{
+    ViewBag.Title = "YorumDetay";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    @using (Html.BeginForm("YorumGuncelle", "Admin", FormMethod.Post))
+    {
+        <br />
+        @Html.LabelFor(x => x.ID)
+        @Html.TextBoxFor(x => x.ID, new { @class = "form-control" ,@readonly=""})
+        <br />
+        @Html.LabelFor(x => x.YORUM)
+        @Html.TextBoxFor(x => x.YORUM, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Kaydet</button>
+    }
+</div>

@@ -1,0 +1,70 @@
+﻿@model SeyehatRehber.Models.Entity.iletisim
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!-- banner -->
+<div class="banner-1">
+</div>
+<!-- //banner -->
+<!--/contact-->
+<div class="contact-w3ls">
+    <div class="container">
+        <div class="agileits_heading_section">
+            <h3 class="wthree_head">İletişime Geç</h3>
+            <p class="w3l_sub_para_agile">Hemen bir mesaj gönder.</p>
+        </div>
+        <div class="inner_w3l_agile_grids-1">
+            <div class="contact-w3-agile2" data-aos="flip-left">
+                <div class="contact-agileits">
+                    <h4 class="mb-3">Bir Mesaj Bırakın</h4>
+                    <form action="#" method="post" name="sentMessage" id="contactForm" novalidate>
+                        <div class="col-md-6 w3l_area_its">
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    @Html.LabelFor(x=>x.ADSOYAD, new { @class="contact-p1"})
+                                    @Html.TextBoxFor(x=>x.ADSOYAD, new { @class="form-control"})
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    @Html.LabelFor(x => x.MAIL, new { @class = "contact-p1" })
+                                    @Html.TextBoxFor(x => x.MAIL, new { @class = "form-control" })
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    @Html.LabelFor(x => x.KONU, new { @class = "contact-p1" })
+                                    @Html.TextBoxFor(x => x.KONU, new { @class = "form-control" })
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    @Html.LabelFor(x => x.MESAJ, new { @class = "contact-p1" })
+                                    @Html.TextAreaFor(x => x.MESAJ,6,1, new { @class = "form-control" })
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div id="success"></div>
+                            <!-- For success/fail messages -->
+                            <button class="btn btn-primary">Mesaj gönder</button>
+                        </div>
+                        <div class="col-md-6 w3l_area">
+                            <div class="contact-w3-agile1 map" data-aos="flip-right">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273813.12933167885!2d-74.20415654215367!3d40.69079407529126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1500966048628" class="map" style="border:0" allowfullscreen=""></iframe>
+                            </div>
+                          
+                        </div>
+                        <div class="clearfix"> </div>
+                    </form>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+</div>

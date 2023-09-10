@@ -1,0 +1,31 @@
+﻿
+@using SeyehatRehber.Models.Entity
+@model List<Blog>
+
+@foreach (var x in Model)
+{
+    <div class="col-md-6 news-left">
+        <div class="w3-agile-news-date">
+            <div class="agile-news-icon">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <p>@x.TARIH.ToShortDateString()</p>
+            </div>
+            <div class="agileits-line"> </div>
+            <div class="agile-news-icon">
+                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+                <p>2 comments</p>
+            </div>
+            <div class="agileits-line"> </div>
+            <div class="agile-news-icon">
+                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                <p>3482</p>
+            </div>
+        </div>
+        <div class="w3-agile-news-img">
+            <a href="/Blog/BlogDetay/@x.ID" data-toggle="modal"><img src="@x.BLOGIMAGE" alt="" /></a>
+            <h4><a href="/Blog/BlogDetay/@x.ID" data-toggle="modal">@x.BASLIK </a></h4>
+            <p>@x.ACIKLAMA.Substring(0, 150)</p>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+}

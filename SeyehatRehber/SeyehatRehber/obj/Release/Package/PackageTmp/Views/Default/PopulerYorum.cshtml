@@ -1,0 +1,27 @@
+﻿@using SeyehatRehber.Models.Entity
+@model List<Yorumlar>
+
+@foreach (var x in Model)
+{
+    <li>
+        <div class="wthree_testimonials_grid_main">
+            <div class="col-md-6 col-xs-6 wthree_testimonials_grid">
+                <p>
+                    <img src="~/web/images/left-quote.png" alt=" ">  @x.YORUM  <img src="~/web/images/right-quote.png" alt=" ">
+                </p>
+            </div>
+            <div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
+                <div class="col-md-5 col-xs-5 grid-test-w3l">
+                    <img src="~/web/images/avatar.png" alt=" " class="img-responsive" />
+                </div>
+                <div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
+                    <h5>@x.KULLANICIADI</h5>
+                    <p>@x.MAIL</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </li>
+
+}

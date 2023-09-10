@@ -1,0 +1,183 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="banner-silder">
+    <div id="JiSlider" class="jislider">
+        <ul>
+            <li>
+                <div class="w3layouts-banner-top">
+
+                    <div class="container">
+                        <div class="agileits-banner-info">
+
+                            <h3>Restoranlar </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin dignissim.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top1">
+                    <div class="container">
+                        <div class="agileits-banner-info">
+
+                            <h3>Uçuşlar</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin dignissim.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top2">
+                    <div class="container">
+                        <div class="agileits-banner-info">
+
+                            <h3>Gezilecek Yerler</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin dignissim.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top3">
+                    <div class="container">
+                        <div class="agileits-banner-info">
+
+                            <h3>Araç Kiralama</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin dignissim.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--about-->
+<div class="about">
+    <div class="container">
+        <div class="about-main">
+            <div class="col-md-6 about-left_w3ls_img">
+
+            </div>
+            <div class="col-md-6 about-right_w3ls">
+                <div class="about-top_agile_its">
+                    <h2>Seyehat Rehber'e Hoşgeldiniz!</h2>
+                    <h5>Cras tincidunt, augue vitae</h5>
+                    <p>Seyahat Rehberi'ne hoş geldiniz! Bu küçük köşe, dünya çapındaki yolculuklarınızı daha özel, daha keyifli ve daha bilinçli hale getirmek için burada. Sizlere, büyüleyici destinasyonları keşfetme fırsatı sunmak, yerel kültürleri anlama yolculuğuna çıkmak ve seyahat deneyiminizin en iyi şekilde geçmesi için rehberlik etmek istiyoruz.
+                    <p>Seyahat etmeye, yeni yerler keşfetmeye ve unutulmaz anılar biriktirmeye hazır mısınız? Öyleyse Seyahat Rehberi ile bu harika yolculuğa başlayın! </p>
+                    <span>Seyahat etmeye başlamadan önce yolculuğunuzun sonunda sizi nelerin beklediğini asla bilemezsiniz.</span>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //about -->
+<!-- Tooltip -->
+<div class="tooltip-content">
+
+    <div class="modal fade features-modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Boat house</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="~/web/images/g4.jpg" class="img-responsive" alt="Boat house">
+                    <h5>Fishing Season Now Open</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed bibendum ex in dignissim bibendum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- //Tooltip -->
+<!--/services -->
+<!-- //services -->
+<!-- news -->
+<div class="news">
+    <div class="container">
+        <h3 class="wthree_head">En yeniler</h3>
+        <p class="w3l_sub_para_agile">Curabitur quis egestas diam</p>
+        <div class="w3-agileits-news-grids">
+            @Html.Action("EnYeniler", "Default")
+            <div class="clearfix"> </div>
+        </div>
+        <div class="w3-agileits-news-grids  news-w3row2">
+            @Html.Action("EnYeniler1", "Default")
+
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //news -->
+<!-- stats -->
+@Html.Action("Gallery","Default")
+<!-- //stats -->
+<!-- testimonials -->
+<div class="testimonials">
+    <div class="container">
+        <h3 class="wthree_head">Popüler Yorumlar</h3>
+        <p class="w3l_sub_para_agile">Curabitur quis egestas diam</p>
+        <ul id="flexiselDemo1">
+            @Html.Action("PopulerYorum", "Default")
+            @*<li>
+                    <div class="wthree_testimonials_grid_main">
+                        <div class="col-md-6 col-xs-6 wthree_testimonials_grid">
+                            <p>
+                                <img src="~/web/images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+                                eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta,
+                                convallis.  <img src="~/web/images/right-quote.png" alt=" ">
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
+                            <div class="col-md-5 col-xs-5 grid-test-w3l">
+                                <img src="~/web/images/te1.jpg" alt=" " class="img-responsive" />
+                            </div>
+                            <div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
+                                <h5>hael fgul</h5>
+                                <p>Lorem</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="wthree_testimonials_grid_main">
+                        <div class="col-md-6 col-xs-6 wthree_testimonials_grid">
+                            <p>
+                                <img src="~/web/images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+                                eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta,
+                                convallis.  <img src="~/web/images/right-quote.png" alt=" ">
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
+                            <div class="col-md-5 col-xs-5 grid-test-w3l">
+                                <img src="~/web/images/te2.jpg" alt=" " class="img-responsive" />
+                            </div>
+                            <div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
+                                <h5>Linda Carl</h5>
+                                <p>Lorem</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </li>*@
+        </ul>
+    </div>
+</div>
+<!-- //testimonials -->

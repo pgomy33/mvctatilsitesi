@@ -1,0 +1,64 @@
+﻿@using SeyehatRehber.Models.Entity
+@model List<Blog>
+
+<div class="col-md-3 w3agile_blog_left">
+
+    <div class="w3l_categories">
+        <h3>Başlıklar</h3>
+        <ul>
+            @foreach (var x in Model)
+            {
+                <li><a href="/Blog/BlogDetay/@x.ID"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>@x.BASLIK</a></li>
+            }
+
+        </ul>
+    </div>
+
+    @*<div class="w3ls_popular_posts">
+            <h3>Popüler Bloglar</h3>
+            <div class="agileits_popular_posts_grid">
+                <div class="w3agile_special_deals_grid_left_grid">
+                    <a href="singlepage.html"><img src="~/web2/images/p1.jpg" class="img-responsive" alt="" /></a>
+                </div>
+                <h4><a href="singlepage.html">Tellus Faucibus Eleifend Sit Amet</a></h4>
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i>FEB 15,2017</h5>
+            </div>
+            <div class="agileits_popular_posts_grid">
+                <div class="w3agile_special_deals_grid_left_grid">
+                    <a href="singlepage.html"><img src="~/web2/images/p2.jpg" class="img-responsive" alt="" /></a>
+                </div>
+                <h4><a href="singlepage.html">Mauris Ut Odio Sed Nisi Convallis</a></h4>
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i>FEB 15,2017</h5>
+            </div>
+            <div class="agileits_popular_posts_grid">
+                <div class="w3agile_special_deals_grid_left_grid">
+                    <a href="singlepage.html"><img src="~/web2/images/p3.jpg" class="img-responsive" alt="" /></a>
+                </div>
+                <h4><a href="singlepage.html">Curabitur A Sapien Et Tellus Faucibus</a></h4>
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i>FEB 15,2017</h5>
+            </div>
+        </div>*@
+
+
+    <div class="w3ls_recent_posts">
+        <h3>Son Bloglar</h3>
+        @foreach (var x in Model)
+        {
+            <div class="agileits_recent_posts_grid">
+                <div class="agileits_recent_posts_gridl">
+                    <div class="w3agile_special_deals_grid_left_grid">
+                        <a href="/Blog/BlogDetay/@x.ID"><img src="@x.BLOGIMAGE" class="img-responsive" alt="" /></a>
+                    </div>
+                </div>
+                <div class="agileits_recent_posts_gridr">
+                    <h4><a href="/Blog/BlogDetay/@x.ID">@x.BASLIK</a></h4>
+                    <h5><i class="fa fa-calendar" aria-hidden="true"></i>@x.TARIH.Month</h5>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        }
+
+
+    </div>
+
+</div>

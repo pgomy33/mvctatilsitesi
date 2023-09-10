@@ -1,0 +1,31 @@
+﻿@model SeyehatRehber.Models.Entity.Blog
+@{
+    ViewBag.Title = "BlogDetay";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    @using (Html.BeginForm("BlogGuncelle", "Admin", FormMethod.Post))
+    {
+        <h2>Blog Güncelleme Sayfası</h2>
+
+        <br />
+        @Html.LabelFor(x => x.ID)
+        @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "" })
+        <br />
+        @Html.LabelFor(x => x.BASLIK)
+        @Html.TextBoxFor(x => x.BASLIK, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.TARIH)
+        @Html.TextBoxFor(x => x.TARIH, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.BLOGIMAGE)
+        @Html.TextBoxFor(x => x.BLOGIMAGE, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.ACIKLAMA)
+        @Html.TextAreaFor(x => x.ACIKLAMA, 15, 1, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Kaydet</button>
+
+    }
+
+</div>
